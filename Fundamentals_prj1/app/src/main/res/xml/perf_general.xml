@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="@string/perf_location_key"
+        android:title="@string/perf_location_label"
+        android:defaultValue="@string/perf_location_default"></EditTextPreference>
+   <ListPreference
+       android:key="@string/perf_temp_key"
+       android:title="@string/perf_temp_label"
+       android:defaultValue="@string/temp_metric"
+       android:entries="@array/weather_metric"
+       android:entryValues="@array/weather_values"></ListPreference>
+</PreferenceScreen>
