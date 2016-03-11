@@ -55,6 +55,6 @@
             android:paddingBottom="28dp"
 
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
-           />
+            android:background="@color/background_floating_material_light" />
         </android.support.v4.widget.SwipeRefreshLayout>
 </android.support.design.widget.CoordinatorLayout>
