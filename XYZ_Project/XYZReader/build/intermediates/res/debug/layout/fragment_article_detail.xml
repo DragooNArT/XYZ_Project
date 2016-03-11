@@ -19,18 +19,19 @@
                 android:id="@+id/photo_container"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="@color/photo_placeholder">
+                android:background="@color/photo_placeholder"
+                android:elevation="4dp">
                 <!--suppress AndroidLintContentDescription -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="112dp"
+                    android:background="@drawable/photo_background_protection" />
+
                 <ImageView
                     android:id="@+id/photo"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:scaleType="centerCrop" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="112dp"
-                    android:background="@drawable/photo_background_protection" />
 
             </FrameLayout>
 
@@ -95,14 +96,14 @@
     </com.example.xyzreader.ui.ObservableScrollView>
     <android.support.design.widget.FloatingActionButton
         app:fabSize="normal"
-        app:elevation="15dp"
-        app:pressedTranslationZ="14dp"
-        android:id="@+id/share_fab_real"
+        app:elevation="12dp"
+        android:id="@+id/share_fab"
         android:src="@drawable/ic_share"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_marginRight="@dimen/fab_margin"
         android:layout_marginBottom="@dimen/fab_margin"
+        android:background="@drawable/add_fab_background"
         android:layout_gravity="bottom|end"
         android:contentDescription="@string/action_share"
         />
@@ -120,4 +121,4 @@
         <!--android:contentDescription="@string/action_share" />-->
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
-<!-- From: file:/C:/Users/DragooNART/AndroidStudioProjects/XYZ_Project/XYZReader/src/main/res/layout/fragment_article_detail.xml -->
+<!-- From: file:/C:/Users/xnml/StudioProjects/XYZ_Project/XYZ_Project/XYZReader/src/main/res/layout/fragment_article_detail.xml -->
