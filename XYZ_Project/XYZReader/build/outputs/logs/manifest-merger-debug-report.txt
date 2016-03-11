@@ -1,8 +1,6 @@
 -- Merging decision tree log ---
 manifest
 ADDED from AndroidManifest.xml:1:1
-	xmlns:android
-		ADDED from AndroidManifest.xml:1:11
 	package
 		ADDED from AndroidManifest.xml:2:5
 	android:versionName
@@ -11,6 +9,8 @@ ADDED from AndroidManifest.xml:1:1
 		ADDED from AndroidManifest.xml:3:5
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:1:11
 uses-permission#android.permission.INTERNET
 ADDED from AndroidManifest.xml:6:5
 	android:name
@@ -88,10 +88,10 @@ ADDED from AndroidManifest.xml:32:17
 		ADDED from AndroidManifest.xml:32:23
 meta-data#android.support.PARENT_ACTIVITY
 ADDED from AndroidManifest.xml:34:13
-	android:name
-		ADDED from AndroidManifest.xml:35:17
 	android:value
 		ADDED from AndroidManifest.xml:36:17
+	android:name
+		ADDED from AndroidManifest.xml:35:17
 service#com.example.xyzreader.data.UpdaterService
 ADDED from AndroidManifest.xml:39:9
 	android:exported
@@ -100,10 +100,10 @@ ADDED from AndroidManifest.xml:39:9
 		ADDED from AndroidManifest.xml:39:18
 provider#com.example.xyzreader.data.ItemsProvider
 ADDED from AndroidManifest.xml:42:9
-	android:exported
-		ADDED from AndroidManifest.xml:44:13
 	android:authorities
 		ADDED from AndroidManifest.xml:43:13
+	android:exported
+		ADDED from AndroidManifest.xml:44:13
 	android:name
 		ADDED from AndroidManifest.xml:42:19
 uses-sdk
